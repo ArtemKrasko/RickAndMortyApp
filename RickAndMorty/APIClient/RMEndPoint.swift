@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+@frozen enum RMEndPoint: String{
+    case character
+    case location
+    case episode
+}
